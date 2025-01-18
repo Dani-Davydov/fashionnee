@@ -1,0 +1,91 @@
+.page-and-banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.page-and-banner .svg-balls {
+    position: absolute;
+}
+
+.page-and-banner .pages {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.page-and-banner .pages .svg-balls {
+    position: absolute;
+}
+
+.page-and-banner .pages .name-and-pages {
+    display: flex;
+    gap: 21px;
+    max-width: 800px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.page-and-banner .pages .name-and-pages .page-border {
+    position: absolute;
+    left: -55px;
+    bottom: -7px;
+}
+
+
+.page-and-banner .pages .name-and-pages .svg-balls {
+
+}
+
+.page-and-banner .pages .name-and-pages .left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    align-items: center;
+    padding-bottom: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.page-and-banner .pages .name-and-pages .page-name {
+    font-family: Josefin Sans;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.page-and-banner .pages .name-and-pages .page-list {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.page-and-banner .pages .name-and-pages .page-list .item {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.page-and-banner .pages .name-and-pages .page-list .item:hover {
+    color: rgba(255, 142, 142, 1);
+}
+
+.page-and-banner .pages .name-and-pages .page-list .item.active {
+    color: rgba(255, 142, 142, 1);
+}
+
+.page-and-banner .pages .name-and-pages .page-list .item-line {
+    display: flex;
+    align-items: center;
+}
+
+.page-and-banner .banner {
+    max-width: 800px;
+    width:  100%;
+    height: 400px;
+    background-color: rgba(241, 242, 243, 1);
+    margin-right: 60px;
+}
